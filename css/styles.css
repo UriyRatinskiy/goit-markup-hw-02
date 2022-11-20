@@ -1,0 +1,31 @@
+.body {
+   
+}
+
+
+/* main text color: #434455; */
+
+/* secondary  text color: #2E2F42;*/
+
+/* violet text color: #4D5AE5;  */
+
+/* logo text wait color: #E7E9FC; */
+
+/* wait text  color: #FFFFFF;*/
+
+/* advice texst color: #E7E9FC; */
+
+:root {
+    --main-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --violet-text-color: #4D5AE5;
+    --logo-text-wait-color: #F4F4FD;
+    --wait-text-color: #FFFFFF;
+    --advice-texst-color: #E7E9FC;
+}
+.logo-web {
+    color: var(--violet-text-color)
+}
+.logo-studio {
+    color: var(--secondary-text-color)
+}
