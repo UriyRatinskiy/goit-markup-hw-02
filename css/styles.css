@@ -1,5 +1,7 @@
 .body {
-   
+   color: var(--main-text-color);
+   font-family: 'Roboto', sans-serif;
+  
 }
 
 
@@ -14,6 +16,14 @@
 /* wait text  color: #FFFFFF;*/
 
 /* advice texst color: #E7E9FC; */
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+}
 
 :root {
     --main-text-color: #434455;
@@ -22,10 +32,93 @@
     --logo-text-wait-color: #F4F4FD;
     --wait-text-color: #FFFFFF;
     --advice-texst-color: #E7E9FC;
+   
 }
+
+/* logo */
 .logo-web {
     color: var(--violet-text-color)
 }
 .logo-studio {
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color) 
 }
+
+/* navigation */
+.nav-list .nav-item {
+    color: var(--secondary-text-color);
+}
+
+.nav-list .nav-item:hover, 
+.nav-list .nav-item:focus {
+    color: var(--main-text-color);
+ }
+
+.nav-list .nav-item:active {
+    color: var(--violet-text-color)
+}
+
+.adres-link .adres {
+    color: var(--main-text-color);
+}
+
+ .adres-link .adres:hover,
+ .adres-link .adres:focus,
+ .adres-link .adres:active  {
+    color: var(--violet-text-color);
+  
+}
+
+
+/* herro */
+.section-herro {
+    background-color: var(--secondary-text-color);
+}
+.herro-titel {
+color: var(--wait-text-color);
+}
+.button {
+    background-color: var(--violet-text-color);
+    color: var(--wait-text-color);
+}
+.button:active {
+    background: #404BBF;
+    color: var(--wait-text-color);
+}
+
+/* section */
+
+.subtitle {
+   color: var(--secondary-text-color); 
+}
+
+
+
+/* footer */
+.footer-text {
+    background-color: var(--secondary-text-color);
+}
+.logo-studio-hover {
+    color: var(--logo-text-wait-color);
+}
+.quote {
+    color: var(--advice-texst-color);
+}
+
+
+/* Portfolio */
+
+
+
+.filter-btn .btn {
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+color: var(--violet-text-color);
+}
+
+.filter-btn .btn:hover,
+.filter-btn .btn:focus,
+.filter-btn .btn:active {
+    background: #4D5AE5;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--wait-text-color); }
