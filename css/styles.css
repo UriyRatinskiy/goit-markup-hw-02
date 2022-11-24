@@ -21,7 +21,6 @@ font-family: 'Roboto', sans-serif; */
 
 
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
     color: var(--secondary-text-color);
 }
 
@@ -37,15 +36,29 @@ h1, h2, h3 {
 
 /* logo */
 .logo-web {
-    color: var(--violet-text-color)
+    color: var(--violet-text-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-decoration:none;
 }
 .logo-studio {
-    color: var(--secondary-text-color) 
+    color: var(--secondary-text-color);
+
 }
 
 /* navigation */
 .nav-list .nav-item {
     color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration:none;
 }
 
 .nav-list .nav-item:hover, 
@@ -54,11 +67,16 @@ h1, h2, h3 {
  }
 
 .nav-list .nav-item:active {
-    color: var(--violet-text-color)
+    color: var(--violet-text-color);
 }
 
 .adres-link .adres {
     color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration:none;
 }
 
  .adres-link .adres:hover,
@@ -73,25 +91,58 @@ h1, h2, h3 {
 .section-herro {
     background-color: var(--secondary-text-color);
 }
+
 .herro-titel {
 color: var(--wait-text-color);
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
 }
+
 .button {
     background-color: var(--violet-text-color);
     color: var(--wait-text-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button:active {
     background: #404BBF;
     color: var(--wait-text-color);
-}
+
 
 /* section */
 
 .subtitle {
    color: var(--secondary-text-color); 
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
 }
 
-
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
+}
+.doing-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
 
 /* footer */
 .footer-text {
