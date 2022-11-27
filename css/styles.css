@@ -39,7 +39,7 @@ h1, h2, h3 {
 .logo-web {
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
     display: flex;
@@ -55,7 +55,7 @@ h1, h2, h3 {
 /* navigation */
 .nav-item {
     color: var(--NAVY-BLUE);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-decoration:none;
@@ -92,7 +92,7 @@ h1, h2, h3 {
 
 .herro-titel {
 color: var(--wait-text-color);
-font-weight: 600;
+font-weight: 500;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -103,7 +103,7 @@ letter-spacing: 0.02em;
     background-color: var(--IRIS);
     color: var(--wait-text-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     display: flex;
@@ -122,7 +122,7 @@ letter-spacing: 0.02em;
 
 .benefits-subtitle {
    color: var(--NAVY-BLUE); 
-   font-weight: 600;
+   font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
 }
@@ -133,7 +133,7 @@ letter-spacing: 0.02em;
 }
 
 .doing-title {
-font-weight: 600;
+font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -143,14 +143,14 @@ text-transform: capitalize;
      background-color: var(--CLOUD);
 }
 .team-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
 }
 .team-name {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -186,7 +186,7 @@ background-color: #F4F4FD;
 border: 1px solid #E7E9FC;
 color: var(--IRIS);
 font-family: 'Roboto', sans-serif;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
@@ -203,7 +203,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 color: var(--wait-text-color);
 font-family: 'Roboto', sans-serif;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
@@ -211,8 +211,12 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
  }
+
+ .project-card {
+    text-decoration: none;
+ }
 .project-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;  
 }
